@@ -1,0 +1,21 @@
+/* 
+    Header Styles
+*/
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.Header h1 {
+    font-family: "Star Jedi Outline", "Days One", "Bebas Neue";
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 425px) {
+  .Header {
+    margin-top: 10vh;
+  }
+}
